@@ -14,3 +14,6 @@ $ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ror7api bundle install
 $ docker compose up --build
 $ docker compose exec ror-jwt bin/rails g model User username
 $ docker compose exec ror-jwt bundle exec rspec
+==============================
+https://www.microverse.org/blog/test-driven-development-of-restful-json-api-with-rails
+https://www.microverse.org/blog/build-a-restful-api-authentication-with-jwt
