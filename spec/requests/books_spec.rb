@@ -37,9 +37,10 @@ RSpec.describe "Books", type: :request do
 
   describe "POST /books/:id" do
     let!(:fancy) { create(:category) }
+    let!(:user) { create(:user) }
     let(:valid_attributes) do
       { title: 'The Hobbit', author: 'J.R.R. Tolkien',
-        category_id: fancy.id }
+        category_id: fancy.id, user_id: user.id }
     end
 
     context "when request attributes are valid" do

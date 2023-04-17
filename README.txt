@@ -17,3 +17,4 @@ $ docker compose exec ror-jwt bundle exec rspec
 ==============================
 https://www.microverse.org/blog/test-driven-development-of-restful-json-api-with-rails
 https://www.microverse.org/blog/build-a-restful-api-authentication-with-jwt
+https://www.microverse.org/blog/testing-and-securing-rails-api-endpoints-with-jwt-and-postman
