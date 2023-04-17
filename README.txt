@@ -15,6 +15,8 @@ $ docker compose up --build
 $ docker compose exec ror-jwt bin/rails g model User username
 $ docker compose exec ror-jwt bundle exec rspec
 ==============================
+Whenever a user tries to access a protected route or resource, say /books, the user agent (e.g., browser) should send the JWT. This is typically in the Authorization header using the Bearer schema. Authorization: Bearer <token>.
+==============================
 https://www.microverse.org/blog/test-driven-development-of-restful-json-api-with-rails
 https://www.microverse.org/blog/build-a-restful-api-authentication-with-jwt
 https://www.microverse.org/blog/testing-and-securing-rails-api-endpoints-with-jwt-and-postman
