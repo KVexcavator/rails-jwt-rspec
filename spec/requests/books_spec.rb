@@ -41,7 +41,7 @@ RSpec.describe "Books", type: :request do
     let!(:fancy) { create(:category) }
     let(:valid_attributes) do
       { title: 'The Hobbit', author: 'J.R.R. Tolkien',
-        category_id: fancy.id, user_id: user.id }
+        category_id: fancy.id }
     end
 
     context "when request attributes are valid" do
